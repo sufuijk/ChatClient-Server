@@ -1,0 +1,19 @@
+D:\Hieu\ChatRom Programing\Server\bin\Debug\Server.exe.config
+G:\BaiTap\C#\ChatRom Programing\Server\bin\Debug\Server.exe.config
+G:\BaiTap\C#\ChatRom Programing\Server\bin\Debug\Server.exe
+G:\BaiTap\C#\ChatRom Programing\Server\bin\Debug\Server.pdb
+G:\BaiTap\C#\ChatRom Programing\Server\obj\Debug\Server.Server.resources
+G:\BaiTap\C#\ChatRom Programing\Server\obj\Debug\Server.Properties.Resources.resources
+G:\BaiTap\C#\ChatRom Programing\Server\obj\Debug\Server.csproj.GenerateResource.Cache
+G:\BaiTap\C#\ChatRom Programing\Server\obj\Debug\Server.exe
+G:\BaiTap\C#\ChatRom Programing\Server\obj\Debug\Server.pdb
+G:\BaiTap\C#\ChatRom Programing\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+G:\BaiTap\C#\ChatRom Programing ver3.0\ChatRom Programing\Server\bin\Debug\Server.exe.config
+G:\BaiTap\C#\ChatRom Programing ver3.0\ChatRom Programing\Server\bin\Debug\Server.exe
+G:\BaiTap\C#\ChatRom Programing ver3.0\ChatRom Programing\Server\bin\Debug\Server.pdb
+G:\BaiTap\C#\ChatRom Programing ver3.0\ChatRom Programing\Server\obj\Debug\Server.Server.resources
+G:\BaiTap\C#\ChatRom Programing ver3.0\ChatRom Programing\Server\obj\Debug\Server.Properties.Resources.resources
+G:\BaiTap\C#\ChatRom Programing ver3.0\ChatRom Programing\Server\obj\Debug\Server.csproj.GenerateResource.Cache
+G:\BaiTap\C#\ChatRom Programing ver3.0\ChatRom Programing\Server\obj\Debug\Server.exe
+G:\BaiTap\C#\ChatRom Programing ver3.0\ChatRom Programing\Server\obj\Debug\Server.pdb
+G:\BaiTap\C#\ChatRom Programing ver3.0\ChatRom Programing\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache

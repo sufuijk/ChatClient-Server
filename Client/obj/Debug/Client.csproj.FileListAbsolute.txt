@@ -1,0 +1,27 @@
+D:\Hieu\ChatRom Programing\Client\bin\Debug\Client.exe.config
+G:\BaiTap\C#\ChatRom Programing\Client\bin\Debug\Client.exe.config
+G:\BaiTap\C#\ChatRom Programing\Client\bin\Debug\Client.exe
+G:\BaiTap\C#\ChatRom Programing\Client\bin\Debug\Client.pdb
+G:\BaiTap\C#\ChatRom Programing\Client\bin\Debug\ChatUserInfomation.dll
+G:\BaiTap\C#\ChatRom Programing\Client\bin\Debug\Server.exe
+G:\BaiTap\C#\ChatRom Programing\Client\bin\Debug\Server.pdb
+G:\BaiTap\C#\ChatRom Programing\Client\bin\Debug\ChatUserInfomation.pdb
+G:\BaiTap\C#\ChatRom Programing\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+G:\BaiTap\C#\ChatRom Programing\Client\obj\Debug\Client.Client.resources
+G:\BaiTap\C#\ChatRom Programing\Client\obj\Debug\Client.Properties.Resources.resources
+G:\BaiTap\C#\ChatRom Programing\Client\obj\Debug\Client.SetInfo.resources
+G:\BaiTap\C#\ChatRom Programing\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+G:\BaiTap\C#\ChatRom Programing\Client\obj\Debug\Client.exe
+G:\BaiTap\C#\ChatRom Programing\Client\obj\Debug\Client.pdb
+G:\BaiTap\C#\ChatRom Programing ver3.0\ChatRom Programing\Client\bin\Debug\Client.exe.config
+G:\BaiTap\C#\ChatRom Programing ver3.0\ChatRom Programing\Client\bin\Debug\Client.exe
+G:\BaiTap\C#\ChatRom Programing ver3.0\ChatRom Programing\Client\bin\Debug\Client.pdb
+G:\BaiTap\C#\ChatRom Programing ver3.0\ChatRom Programing\Client\bin\Debug\Server.exe
+G:\BaiTap\C#\ChatRom Programing ver3.0\ChatRom Programing\Client\bin\Debug\Server.pdb
+G:\BaiTap\C#\ChatRom Programing ver3.0\ChatRom Programing\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+G:\BaiTap\C#\ChatRom Programing ver3.0\ChatRom Programing\Client\obj\Debug\Client.Client.resources
+G:\BaiTap\C#\ChatRom Programing ver3.0\ChatRom Programing\Client\obj\Debug\Client.Properties.Resources.resources
+G:\BaiTap\C#\ChatRom Programing ver3.0\ChatRom Programing\Client\obj\Debug\Client.SetInfo.resources
+G:\BaiTap\C#\ChatRom Programing ver3.0\ChatRom Programing\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+G:\BaiTap\C#\ChatRom Programing ver3.0\ChatRom Programing\Client\obj\Debug\Client.exe
+G:\BaiTap\C#\ChatRom Programing ver3.0\ChatRom Programing\Client\obj\Debug\Client.pdb

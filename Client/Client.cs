@@ -50,13 +50,16 @@ namespace Client
             try
             {
                 client.Connect(IP);
+                this.user.IPLocal = client.LocalEndPoint.ToString();
                 //Set up title form
                 this.Text += " [" + this.user.nickname + " : " + client.LocalEndPoint + "]";
+
                 MessageBox.Show("Kết nối thành công", "Thông báo");
             }
             catch
             {
                 MessageBox.Show("Không thể kết nối server!", "Lỗi");
+                Application.Exit();
                 this.Close();
                 return;
             }
@@ -70,7 +73,6 @@ namespace Client
         void Close()
         {
             client.Close();
-
         }
 
         void Send()
@@ -94,7 +96,7 @@ namespace Client
             }
                 
         }
-
+        
         //Add message to listbox
         void addMsg(CUser user) {
 
@@ -154,7 +156,7 @@ namespace Client
         //Turn off application
         private void Client_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Close();
+            this.Close();
             Application.Exit();
         }
         

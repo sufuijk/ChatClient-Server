@@ -16,4 +16,4 @@ G:\BaiTap\C#\ChatRom Programing ver3.0\ChatRom Programing\Server\obj\Debug\Serve
 G:\BaiTap\C#\ChatRom Programing ver3.0\ChatRom Programing\Server\obj\Debug\Server.csproj.GenerateResource.Cache
 G:\BaiTap\C#\ChatRom Programing ver3.0\ChatRom Programing\Server\obj\Debug\Server.exe
 G:\BaiTap\C#\ChatRom Programing ver3.0\ChatRom Programing\Server\obj\Debug\Server.pdb
-G:\BaiTap\C#\ChatRom Programing ver3.0\ChatRom Programing\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+G:\BaiTap\C#\ChatRom Programing ver3.0\ChatRom Programing\Server\obj\Debug\Server.CreateServer.resources

@@ -20,7 +20,9 @@ namespace Server
     public partial class Server : Form
     {
         
-        IPEndPoint IP;
+        IPEndPoint IPE;
+        IPAddress IP;
+        int Port;
         Socket server;
         List<Socket> clientList;
 
@@ -32,9 +34,11 @@ namespace Server
         float size = 10;
 
 
-        public Server()
+        public Server(string IPServer, int PortServer)
         {
             InitializeComponent();
+            IP = IPAddress.Parse(IPServer);
+            Port = PortServer;
             //Init server
             Connect();
             //Load font
@@ -51,15 +55,29 @@ namespace Server
             addMsg(this.user);
             txbMessage.Clear();
         }
+        //Get ip local
+        private string GetIPLocal()
+        {
+            IPHostEntry host;
+            host = Dns.GetHostEntry(Dns.GetHostName());
+            foreach (IPAddress ip in host.AddressList)
+                if (ip.AddressFamily == AddressFamily.InterNetwork)
+                    return ip.ToString();
 
+            return "127.0.0.1";
+        }
         void Connect()
         {
-            //IP địa chỉ của Server
             clientList = new List<Socket>();
-            IP = new IPEndPoint(IPAddress.Any, 7777);
-            user = new CUser("Server",IPAddress.Parse("127.0.0.1"));
+            //IP của Server
+            this.Text = "Máy chủ[" + IP.ToString() + "]";
+            //Chỉ chấp nhận những client kết nối đến IP của server
+            IPE = new IPEndPoint(IP, Port);
+            //Khởi tạo user server
+            user = new CUser("Server",IP);
+
             server = new Socket(AddressFamily.InterNetwork,SocketType.Stream,ProtocolType.Tcp);
-            server.Bind(IP);
+            server.Bind(IPE);
             
             Thread Listen = new Thread(() =>
             {
@@ -75,7 +93,6 @@ namespace Server
                         clientList.Add(client);
                         //Them vao list danh sach ket noi
                         listMember.Items.Insert(listMember.Items.Count,client.RemoteEndPoint.ToString());
-
                         Thread recevie = new Thread(Receive);
                         recevie.IsBackground = true;
                         recevie.Start(client);
@@ -85,8 +102,9 @@ namespace Server
                 }
                 catch
                 {
-                    IP = new IPEndPoint(IPAddress.Any, 7777);
+                    IPE = new IPEndPoint(IP, 7777);
                     server = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+                    //server.Bind(IPE);
                 }
             });
 
@@ -125,6 +143,7 @@ namespace Server
                     client.Receive(data);
 
                     CUser infoUser = (CUser)Deserialize(data);
+
                     //khu vuc test
                     Send(infoUser);
                     //khu vuc test
@@ -221,8 +240,7 @@ namespace Server
         int idKick = -1;
         private void btnKick_Click(object sender, EventArgs e)
         {
-            
-            if( this.KickIP != null && this.idKick >= 0)
+            if (this.KickIP != null && this.idKick >= 0)
             {
                 foreach (Socket client in clientList)
                 {
@@ -232,12 +250,11 @@ namespace Server
                         break;
                     }
                 }
-                listMember.Items.RemoveAt(idKick);
-
+                listMember.Items.RemoveAt(this.idKick);
             }
-            
         }
 
+        
         private void listMember_SelectedIndexChanged(object sender, EventArgs e)
         {
             try
@@ -255,6 +272,8 @@ namespace Server
             }
         }
 
-     
+      
+
+
     }
 }

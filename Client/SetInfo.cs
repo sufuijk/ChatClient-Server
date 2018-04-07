@@ -23,17 +23,20 @@ namespace Client
         {
             InitializeComponent();
         }
+        public CUser obj = new CUser();
+        
         private void button1_Click(object sender, EventArgs e)
         {
-            CUser obj = new CUser();
             //Set up info of user
             obj.IPServer = IPAddress.Parse(txbIPAddress.Text);
             obj.nickname = txbNickname.Text;
             obj.port = int.Parse(txbPortNumber.Text);
             //Tranfers user to new form
+            
             Client maykhach = new Client(obj);
             maykhach.Show();
             this.Hide();
+            
         }
 
         private void button2_Click(object sender, EventArgs e)

@@ -103,7 +103,7 @@
             this.cbxFont.Name = "cbxFont";
             this.cbxFont.Size = new System.Drawing.Size(121, 21);
             this.cbxFont.TabIndex = 13;
-            this.cbxFont.Text = "Times New Roman";
+            this.cbxFont.Text = "Arial";
             this.cbxFont.SelectedIndexChanged += new System.EventHandler(this.cbxFont_SelectedIndexChanged);
             // 
             // cbxSize
@@ -130,7 +130,7 @@
             this.cbxSize.Name = "cbxSize";
             this.cbxSize.Size = new System.Drawing.Size(53, 21);
             this.cbxSize.TabIndex = 18;
-            this.cbxSize.Text = "16";
+            this.cbxSize.Text = "13";
             this.cbxSize.SelectedIndexChanged += new System.EventHandler(this.cbxSize_SelectedIndexChanged);
             // 
             // rtbMessage

@@ -17,6 +17,7 @@ namespace Server
     {
         public string nickname;
         public string message;
+        public string IPLocal;
         public IPAddress IPServer;
         public int port;
 

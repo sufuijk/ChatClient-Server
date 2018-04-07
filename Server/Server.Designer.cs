@@ -65,7 +65,7 @@
             // 
             this.btnKick.Location = new System.Drawing.Point(496, 229);
             this.btnKick.Name = "btnKick";
-            this.btnKick.Size = new System.Drawing.Size(90, 22);
+            this.btnKick.Size = new System.Drawing.Size(124, 22);
             this.btnKick.TabIndex = 4;
             this.btnKick.Text = "Kick";
             this.btnKick.UseVisualStyleBackColor = true;
@@ -97,7 +97,7 @@
             this.cbxFont.Name = "cbxFont";
             this.cbxFont.Size = new System.Drawing.Size(121, 21);
             this.cbxFont.TabIndex = 16;
-            this.cbxFont.Text = "Times New Roman";
+            this.cbxFont.Text = "Arial";
             this.cbxFont.SelectedIndexChanged += new System.EventHandler(this.cbxFont_SelectedIndexChanged);
             // 
             // label3
@@ -142,7 +142,7 @@
             this.cbxSize.Name = "cbxSize";
             this.cbxSize.Size = new System.Drawing.Size(53, 21);
             this.cbxSize.TabIndex = 17;
-            this.cbxSize.Text = "16";
+            this.cbxSize.Text = "13";
             this.cbxSize.SelectedIndexChanged += new System.EventHandler(this.cbxSize_SelectedIndexChanged);
             // 
             // rtbMessage
@@ -161,7 +161,7 @@
             this.listMember.FormattingEnabled = true;
             this.listMember.Location = new System.Drawing.Point(496, 12);
             this.listMember.Name = "listMember";
-            this.listMember.Size = new System.Drawing.Size(90, 212);
+            this.listMember.Size = new System.Drawing.Size(124, 212);
             this.listMember.TabIndex = 19;
             this.listMember.SelectedIndexChanged += new System.EventHandler(this.listMember_SelectedIndexChanged);
             // 
@@ -170,7 +170,7 @@
             this.AcceptButton = this.btnSend;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(602, 347);
+            this.ClientSize = new System.Drawing.Size(633, 347);
             this.Controls.Add(this.listMember);
             this.Controls.Add(this.rtbMessage);
             this.Controls.Add(this.cbxSize);
